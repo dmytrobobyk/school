@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dreamteam.com.school.view.TitleTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:id="@+id/toolbarTitle"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginEnd="16dp"
+    android:gravity="center"
+    android:textSize="@dimen/text_size_extra_large"
+    android:maxLines="1"
+    android:ellipsize="end"
+    android:textColor="@color/textWhiteColorPrimary"
+    tools:text="Toolbar title here" />

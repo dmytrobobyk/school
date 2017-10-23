@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dreamteam.com.school.view.CustomTabLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/schoolTabs"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    app:tabGravity="fill"
+    app:tabIndicatorHeight="2dp"
+    app:tabMode="fixed"
+    app:tabPadding="0dp"
+    app:tabSelectedTextColor="@color/black"
+    app:tabTextColor="@color/white" />

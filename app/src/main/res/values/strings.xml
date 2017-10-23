@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Schools</string>
+    <string name="app_version_title">Version:</string>
+
+    <!--SchoolsListActivity-->
+    <string name="title_country">Country:</string>
+    <string name="title_city">City:</string>
+    <string name="about_app">About app</string>
+    <string name="personal_photo">Personal photo</string>
+    <string name="schools_list">Schools</string>
+    <string name="main_menu">menu</string>
+    <string name="menu_open">Open menu</string>
+    <string name="menu_close">Close menu</string>
+
+    <!--PupilInfoActivity-->
+    <string name="pupil_info_activity_title">Pupil\'s info</string>
+
+    <!--SchoolFragment-->
+    <string name="title_website">School\'s website:</string>
+    <string name="school_fragment_title">School</string>
+    <string name="school_director_title">School director</string>
+    <string name="school_pupils_title">School pupils</string>
+
+    <!--SchoolDirectorFragment-->
+    <string name="school_director_fragment_title">School director</string>
+    <string name="director_info_title">Director\s information</string>
+
+    <!--PupilsListFragment-->
+    <string name="class_name_title">Class:</string>
+    <string name="pupil_rating_title">Rating:</string>
+    <string name="title_description">Additional information</string>
+
+    <!--Marks-->
+    <string name="mark_A">A</string>
+    <string name="mark_B">B</string>
+    <string name="mark_C">C</string>
+    <string name="mark_D">D</string>
+    <string name="no_marks">No marks</string>
+
+
+    <!--SymbolStrings-->
+    <string name="coma">,</string>
+    <string name="dot">.</string>
+    <string name="school_location" formatted="false">%1$s, %2$s</string>
+    <string name="two_words_with_space" formatted="false">%1s %2s</string>
+
+    <!--Tools strings-->
+    <string name="string_long">At Harker we are committed to providing the most comprehensive academic and extracurricular programs and services possible for our students to help them discover their passions. Highly qualified teachers, small class sizes and outstanding facilities help ensure a premiere educational experience for your child. We encourage families who believe Harker may be a good fit for them to explore financial assistance options.</string>
+    <string name="string_pupil_description">This pupil was passionate about pursuing a career in education, but her family wanted her to choose a different path, and so she studied Art History and Anthropology in hopes of being a museum curator. When she was offered an internship with the Modern Arts Museum, however, she discovered how cut throat the profession could be. Allie admits that she tried to satisfy her family but ultimately returned to what she truly enjoys and plans to graduate in spring 2019 with a degree in Elementary Education, minors in Spanish Teaching, Family and Consumer Sciences, Art History, and endorsements in Arts Integration and Technology. She hopes to enter the Dual Immersion program and work with English Language Learners in order to help safeguard “students’ cultures and to show each student how wonderful it is to be bilingual.</string>
+    <string name="string_director_description">Most education directors are computer savvy, as they spend countless hours writing and rewriting curriculum, maintaining databases, and monitoring and managing student records. They need to be organized to be able to manage these records, prioritize job tasks, and coordinate student and staff activities. Good people skills are essential as education directors have to interact with teachers, students, alumni and parents. Good problem-solving skills and the ability to manage stress help directors react calmly to crises and to find creative solutions, according to the U.S. Bureau of Labor Statistics, or BLS.</string>
+</resources>

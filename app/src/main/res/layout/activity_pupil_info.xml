@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pupilInfoLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/indigo_100">
+
+    <include layout="@layout/toolbar_main" />
+
+    <ImageView
+        android:id="@+id/pupilImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:elevation="3dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:background="@drawable/profile_placeholder"/>
+
+    <dreamteam.com.school.view.TitleTextView
+        android:id="@+id/pupilNameTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="@dimen/text_size_extra_large_26"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toEndOf="@+id/pupilImageView"
+        app:layout_constraintTop_toTopOf="@+id/pupilImageView"
+        tools:text="Anfi Gustaf"/>
+
+    <dreamteam.com.school.view.TitleTextView
+        android:id="@+id/classTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/class_name_title"
+        android:textColor="@color/textColorSecondary"
+        android:textSize="@dimen/text_size_large"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/pupilNameTextView"
+        app:layout_constraintStart_toStartOf="@+id/pupilNameTextView"
+        tools:layout_editor_absoluteX="152dp" />
+
+    <dreamteam.com.school.view.CommonTextView
+        android:id="@+id/pupilClassNameTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="@dimen/text_size_large"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="@+id/classTitle"
+        app:layout_constraintStart_toEndOf="@+id/classTitle"
+        tools:text="11" />
+
+    <dreamteam.com.school.view.TitleTextView
+        android:id="@+id/ratingTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColorSecondary"
+        android:textSize="@dimen/text_size_large"
+        android:text="@string/pupil_rating_title"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/classTitle"
+        app:layout_constraintStart_toStartOf="@+id/classTitle"
+        tools:layout_editor_absoluteX="151dp" />
+
+    <dreamteam.com.school.view.CommonTextView
+        android:id="@+id/ratingTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="@dimen/text_size_large"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ratingTitleTextView"
+        app:layout_constraintStart_toStartOf="@+id/pupilClassNameTextView"
+        tools:text="B" />
+
+    <include layout="@layout/title_layout"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/pupilImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <dreamteam.com.school.view.CommonTextView
+        android:id="@+id/pupilDescriptionTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="@dimen/text_size_large"
+        tools:text="@string/string_long"
+        android:background="@color/info_background"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/titleLayout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

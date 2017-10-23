@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/indigo_100" >
+
+    <ImageView
+        android:id="@+id/schoolImageView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        tools:background="@drawable/detroit_country_day_school_academy"/>
+
+    <dreamteam.com.school.view.TitleTextView
+        android:id="@+id/schoolNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schoolImageView"
+        android:textSize="@dimen/text_size_extra_large"
+        android:textColor="@color/textColorPrimary"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        tools:text="Harker School"/>
+
+    <ImageView
+        android:id="@+id/schoolLogoImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        tools:background="@drawable/profile_placeholder"
+        android:layout_below="@+id/schoolNameTextView"/>
+
+    <dreamteam.com.school.view.TitleTextView
+        android:id="@+id/schoolLocationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/schoolNameTextView"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="@dimen/text_size_large"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        tools:text="Minesota, USA"/>
+
+    <dreamteam.com.school.view.CommonTextView
+        android:id="@+id/schoolDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schoolLocationTextView"
+        android:textColor="@color/textColorSecondary"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="8dp"
+        tools:text="@string/string_long"/>
+
+    <dreamteam.com.school.view.CommonTextView
+        android:id="@+id/titleSchoolWebSiteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schoolDescriptionTextView"
+        android:textColor="@color/textColorPrimary"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/title_website"/>
+
+    <dreamteam.com.school.view.CommonTextView
+        android:id="@+id/schoolWebSiteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColorPrimary"
+        android:layout_alignBaseline="@+id/titleSchoolWebSiteTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        tools:text="www.blablabla.school.com"/>
+
+
+</RelativeLayout>
